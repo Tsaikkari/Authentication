@@ -1,0 +1,16 @@
+<%- include('partials/header') %>
+<div class="container">
+  <div class="jumbotron centered">
+    <i class="fab fa-pagelines"></i>
+    <h1 class="display-3">Wise Words</h1>
+    <p class="wise-text">Don't keep your wisdom to yourself, share it with us!</p>
+
+    <form action="/submit" method="POST">
+    <div class="form-group">
+      <input type="text" class="form-control text-center" name="wisdom" placeholder="What are your words of wisdom?">
+    </div>
+    <button type="submit" class="btn btn-dark">Submit</button>
+  </form>
+  </div>
+</div>
+<%- include('partials/footer') %>

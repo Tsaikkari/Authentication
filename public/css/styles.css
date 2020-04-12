@@ -1,0 +1,23 @@
+body {
+    background-color: #E8ECEF;
+  }
+  
+.centered {
+    padding-top: 100px;
+    text-align: center;
+}
+
+/*icon*/
+.fa-pagelines {
+  font-size: 10rem;
+  color: green;
+  background-color: purple;
+}
+  
+.wise-text {
+  text-align: center;
+  font-size: 2rem;
+  color: #fff;
+  background-color: #149414;
+}
+  

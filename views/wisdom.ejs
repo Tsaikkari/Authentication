@@ -1,0 +1,14 @@
+<%- include('partials/header') %>
+<div class="jumbotron text-center">
+  <div class="container">
+    <i class="fab fa-pagelines"></i>
+    <h1 class="display-3">Keep going!</h1>
+  <% usersWithWisdom.forEach(function(user) { %>
+      <p class="wise-text"><%=user.wisdom%></p></3>
+  <% }) %>
+    <hr>
+    <a class="btn btn-light btn-lg" href="/logout" role="button">Log Out</a>
+    <a class="btn btn-dark btn-lg" href="/submit" role="button">Submit a Wisdom</a>
+  </div>
+</div>
+<%- include('partials/footer') %>
